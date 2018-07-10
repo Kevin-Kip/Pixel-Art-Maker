@@ -27,5 +27,7 @@ $('table').on('click','td', function () {
 });
 
 $('#clearAll').on('click', function () {
-    chart.empty();
+    if (confirm("Are you sure you want to clear?")){
+        chart.empty();
+    }
 });
