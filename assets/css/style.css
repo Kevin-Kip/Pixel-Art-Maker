@@ -1,0 +1,26 @@
+body {
+    background: rgb(0, 141, 104);
+    text-align: center;
+}
+p {
+    background: white;
+}
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 1px solid #004489;
+}
+td {
+    width: 20px;
+    border: 1px solid #004489;
+}
+tr {
+    height: 20px;
+    border: 1px solid #004489;
+}
+input {
+    height: 30px;
+    border-radius: 2px;
+    background: white;
+    border: none;
+}
